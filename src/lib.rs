@@ -1,3 +1,6 @@
+extern crate mio;
+extern crate proto;
 extern crate protobuf;
 
-mod proto;
+pub fn test() {
+}

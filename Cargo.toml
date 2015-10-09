@@ -7,5 +7,11 @@ authors = [ "Hyunsik Choi <hyunsik.choi at gmail dot com>" ]
 name = "hdfsrs"
 path = "src/lib.rs"
 
+[dependencies]
+mio = "0.4"
+
 [dependencies.protobuf]
 git = "https://github.com/stepancheg/rust-protobuf.git"
+
+[dependencies.proto]
+path = "src/proto"

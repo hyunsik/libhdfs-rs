@@ -1,3 +1,5 @@
+extern crate protobuf;
+
 pub mod acl;
 pub mod ClientDatanodeProtocol;
 pub mod ClientNamenodeProtocol;
