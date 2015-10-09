@@ -69,6 +69,7 @@ use super::hdfs::CryptoProtocolVersionProto;
 use super::hdfs::ChecksumTypeProto;
 use super::hdfs::ReplicaStateProto;
 use super::acl::AclEntryProto;
+use super::acl::AclEntryProto_FsActionProto;
 use super::acl::AclStatusProto;
 use super::acl::AclEditLogProto;
 use super::acl::ModifyAclEntriesRequestProto;
